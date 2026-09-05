@@ -60,12 +60,16 @@ export async function renderSite(site, home, files, uploadInfo = async () => ({}
     const bytes = info.size;
     const size = Number.isFinite(bytes) ? (bytes < 1024 ? `${bytes} B` : bytes < 1048576 ? `${(bytes / 1024).toFixed(1)} KB` : `${(bytes / 1048576).toFixed(1)} MB`) : '';
     const meta = [size, entry.date].filter(Boolean).join(' · ');
-    fileRows.push(`<li class="file-row"><div class="file-type">${fileIcon}</div><div class="file-details"><h3 class="file-name">${escape(entry.title)}</h3>${entry.description ? `<p class="file-description text-content">${escape(entry.description)}</p>` : ''}${meta ? `<p class="file-meta">${escape(meta)}</p>` : ''}</div><a class="download-link" href="${escape(local.split('/').map(encodeURIComponent).join('/'))}" download aria-label="${escape(label.download || '下载')} ${escape(entry.title)}">${down}<span>${escape(label.download || '下载')}</span></a></li>`);
+    const folderCategory = local.split('/').length > 2 ? local.split('/')[1] : '';
+    fileRows.push({category: String(entry.category || folderCategory), html: `<li class="file-row"><div class="file-type">${fileIcon}</div><div class="file-details"><h3 class="file-name">${escape(entry.title)}</h3>${entry.description ? `<p class="file-description text-content">${escape(entry.description)}</p>` : ''}${meta ? `<p class="file-meta">${escape(meta)}</p>` : ''}</div><a class="download-link" href="${escape(local.split('/').map(encodeURIComponent).join('/'))}" download aria-label="${escape(label.download || '下载')} ${escape(entry.title)}">${down}<span>${escape(label.download || '下载')}</span></a></li>`});
   }
   const renderedSections = [];
   for (const section of sections) {
     let body = section.text ? `<p class="text-content">${escape(section.text)}</p>` : '';
-    if (section.kind === 'files') body += fileRows.length ? `<ul class="file-list">${fileRows.join('')}</ul>` : `<p class="empty-message">${escape(label.emptyFiles)}</p>`;
+    if (section.kind === 'files') {
+      const rows = section.fileCategory ? fileRows.filter(row => row.category === section.fileCategory) : fileRows;
+      body += rows.length ? `<ul class="file-list">${rows.map(row => row.html).join('')}</ul>` : `<p class="empty-message">${escape(label.emptyFiles)}</p>`;
+    }
     else {
       const cards = [];
       for (const [index, item] of array(section.items).entries()) {
