@@ -1,6 +1,6 @@
 {
   "title": "RUNZHI · 个人主页",
-  "description": "RUNZHI 的个人主页：数学、金融研究、音乐游戏与个人资料。",
+  "description": "RUNZHI 的个人主页",
   "brand": "r.",
   "headerLabel": "个人主页",
   "accent": "#1856d8",
@@ -10,7 +10,7 @@
     "name": "甘润知",
     "role": "数学科学学院研究生",
     "greeting": "RUNZHI GAN",
-    "intro": "2022级数学科学学院本科生\n 2026级数学科学学院博士研究生"
+    "intro": "高中\n 2019-2022 华东师范大学第二附属中学\n 本科\n 20222-2026 北京大学数学科学学院本科生\n 研究生\n 2026-至今 北京大学数学科学学院博士研究生"
   },
   "contacts": [],
   "footer": {
