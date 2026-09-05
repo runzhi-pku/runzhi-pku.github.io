@@ -1,0 +1,76 @@
+{
+  "sections": [
+    {
+      "id": "files",
+      "navLabel": "资料",
+      "kicker": "01 / FILES",
+      "title": "公开资料",
+      "intro": "笔记、文档\n与分享的文件。",
+      "kind": "files",
+      "visible": true,
+      "text": "",
+      "items": []
+    },
+    {
+      "id": "research",
+      "navLabel": "研究",
+      "kicker": "02 / RESEARCH",
+      "title": "研究与项目",
+      "intro": "从数学方法\n到金融数据。",
+      "kind": "projects",
+      "visible": true,
+      "text": "",
+      "items": [
+        {
+          "title": "路径签名与小盘股波动率预测",
+          "meta": "波动率预测 · 时间序列",
+          "text": "结合路径签名特征、变分自编码器与在线重加权，研究小盘股已实现波动率的预测。",
+          "tags": [
+            "Path Signature",
+            "VAE",
+            "Online Reweighting"
+          ],
+          "image": "",
+          "imageAlt": "",
+          "link": "",
+          "linkLabel": ""
+        },
+        {
+          "title": "市场有效性与反转策略",
+          "meta": "收益率分析 · 实证研究",
+          "text": "从收益率的统计特征出发，结合游程检验、方差比检验与反转策略，观察金融市场中的可预测性。",
+          "tags": [
+            "统计检验",
+            "策略回测"
+          ],
+          "image": "",
+          "imageAlt": "",
+          "link": "",
+          "linkLabel": ""
+        }
+      ]
+    },
+    {
+      "id": "interests",
+      "navLabel": "兴趣",
+      "kicker": "03 / OFF THE PAGE",
+      "title": "研究之外",
+      "intro": "",
+      "kind": "cards",
+      "visible": true,
+      "text": "",
+      "items": [
+        {
+          "title": "把喜欢的音乐，写进谱面。",
+          "meta": "音乐游戏与创作",
+          "text": "喜欢 maimai 和 Project SEKAI，也尝试为喜欢的歌曲制作 maimai 自制谱面，在节奏、换手和滑星之间寻找表达。",
+          "tags": [],
+          "image": "",
+          "imageAlt": "",
+          "link": "",
+          "linkLabel": ""
+        }
+      ]
+    }
+  ]
+}
