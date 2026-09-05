@@ -7,7 +7,7 @@
       "title": "习题课讲义",
       "intro": "习题课使用的\n讲义与补充材料。",
       "kind": "files",
-      "fileCategory": "lecture-notes",
+      "fileCategory": "courses",
       "visible": true,
       "text": "",
       "items": []
@@ -19,7 +19,7 @@
       "title": "作业解答",
       "intro": "作业题目、参考解答\n与相关说明。",
       "kind": "files",
-      "fileCategory": "homework-solutions",
+      "fileCategory": "answers",
       "visible": true,
       "text": "",
       "items": []
