@@ -1,33 +1,33 @@
 {
   "sections": [
     {
-    "id": "lecture-notes",
-    "navLabel": "讲义",
-    "kicker": "01 / LECTURE NOTES",
-    "title": "习题课讲义",
-    "intro": "习题课使用的\n讲义与补充材料。",
-    "kind": "files",
-    "fileCategory": "lecture-notes",
-    "visible": true,
-    "text": "",
-    "items": []
-  },
-  {
-    "id": "homework-solutions",
-    "navLabel": "解答",
-    "kicker": "02 / SOLUTIONS",
-    "title": "作业解答",
-    "intro": "作业题目、参考解答\n与相关说明。",
-    "kind": "files",
-    "fileCategory": "homework-solutions",
-    "visible": true,
-    "text": "",
-    "items": []
-  },
+      "id": "lecture-notes",
+      "navLabel": "讲义",
+      "kicker": "01 / LECTURE NOTES",
+      "title": "习题课讲义",
+      "intro": "习题课使用的\n讲义与补充材料。",
+      "kind": "files",
+      "fileCategory": "lecture-notes",
+      "visible": true,
+      "text": "",
+      "items": []
+    },
+    {
+      "id": "homework-solutions",
+      "navLabel": "解答",
+      "kicker": "02 / SOLUTIONS",
+      "title": "作业解答",
+      "intro": "作业题目、参考解答\n与相关说明。",
+      "kind": "files",
+      "fileCategory": "homework-solutions",
+      "visible": true,
+      "text": "",
+      "items": []
+    },
     {
       "id": "research",
       "navLabel": "研究",
-      "kicker": "02 / RESEARCH",
+      "kicker": "03 / RESEARCH",
       "title": "研究",
       "intro": " ",
       "kind": "projects",
@@ -37,7 +37,7 @@
     {
       "id": "interests",
       "navLabel": "兴趣",
-      "kicker": "03 / OFF THE PAGE",
+      "kicker": "04 / OFF THE PAGE",
       "title": "研究之外",
       "intro": "",
       "kind": "cards",
