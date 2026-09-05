@@ -7,19 +7,14 @@
   "hero": {
     "navLabel": "关于",
     "eyebrow": "MATHEMATICS & BEYOND",
-    "name": "RUNZHI",
-    "role": "数学学院研究生",
-    "greeting": "你好，欢迎来到我的主页。",
-    "intro": "我关注数学、统计与金融中的问题，\n也喜欢音乐游戏与谱面创作。",
-    "avatar": "",
-    "avatarAlt": "RUNZHI 的头像",
-    "linkLabel": "了解我的研究",
-    "link": "#research"
+    "name": "甘润知",
+    "role": "数学科学学院研究生",
+    "greeting": "RUNZHI GAN",
+    "intro": "2022级数学科学学院本科生\n 2026级数学科学学院博士研究生",
   },
   "contacts": [],
   "footer": {
     "copyright": "© 2026 RUNZHI",
-    "text": "数学 · 音乐 · 好奇心",
     "topLabel": "回到顶部",
     "adminLabel": "管理网站"
   },
