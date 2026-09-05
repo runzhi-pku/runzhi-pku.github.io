@@ -30,6 +30,8 @@
           "link": "",
           "linkLabel": ""
         }
+      ]
+    },
     {
       "id": "lecture-notes",
       "navLabel": "讲义",
@@ -53,8 +55,6 @@
       "visible": true,
       "text": "",
       "items": []
-    },
-      ]
     }
   ]
 }
