@@ -34,7 +34,7 @@
     },
     {
       "id": "lecture-notes",
-      "navLabel": "讲义",
+      "navLabel": "助教工作",
       "kicker": "03 / LECTURE NOTES",
       "title": "习题课讲义",
       "intro": "2026-2027学年第一学期\n 高等数学(A)助教",
@@ -46,7 +46,7 @@
     },
     {
       "id": "homework-solutions",
-      "navLabel": "解答",
+      "navLabel": "课本习题解答",
       "kicker": "04 / SOLUTIONS",
       "title": "作业解答",
       "intro": "作业题目、参考解答\n与相关说明。",
